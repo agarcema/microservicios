@@ -1,8 +1,8 @@
-package academy.digitallab.store.shopping.service;
+package academy.digitallab.store.serviceshopping.service;
 
 import java.util.List;
 
-import academy.digitallab.store.shopping.entity.Invoice;
+import academy.digitallab.store.serviceshopping.entity.Invoice;
 
 public interface InvoiceService {
     public List<Invoice> findInvoiceAll();

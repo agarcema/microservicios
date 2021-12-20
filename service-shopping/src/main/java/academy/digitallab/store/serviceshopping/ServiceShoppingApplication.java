@@ -1,4 +1,4 @@
-package academy.digitallab.store.shopping;
+package academy.digitallab.store.serviceshopping;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

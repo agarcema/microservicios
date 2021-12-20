@@ -1,4 +1,4 @@
-package academy.digitallab.store.shopping.entity;
+package academy.digitallab.store.serviceshopping.entity;
 
 import java.util.ArrayList;
 import java.util.Date;

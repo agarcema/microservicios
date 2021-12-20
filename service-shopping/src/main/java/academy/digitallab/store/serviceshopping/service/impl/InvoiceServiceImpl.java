@@ -1,14 +1,14 @@
-package academy.digitallab.store.shopping.service.impl;
+package academy.digitallab.store.serviceshopping.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import academy.digitallab.store.shopping.entity.Invoice;
-import academy.digitallab.store.shopping.repository.InvoiceItemsRepository;
-import academy.digitallab.store.shopping.repository.InvoiceRepository;
-import academy.digitallab.store.shopping.service.InvoiceService;
+import academy.digitallab.store.serviceshopping.entity.Invoice;
+import academy.digitallab.store.serviceshopping.repository.InvoiceItemsRepository;
+import academy.digitallab.store.serviceshopping.repository.InvoiceRepository;
+import academy.digitallab.store.serviceshopping.service.InvoiceService;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

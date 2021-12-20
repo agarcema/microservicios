@@ -1,4 +1,4 @@
-package academy.digitallab.store.shopping;
+package academy.digitallab.store.serviceshopping;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

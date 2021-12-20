@@ -1,4 +1,4 @@
-package academy.digitallab.store.shopping.controller.rest;
+package academy.digitallab.store.serviceshopping.controllers;
 
 import java.util.HashMap;
 import java.util.List;
@@ -24,14 +24,15 @@ import org.springframework.web.server.ResponseStatusException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import academy.digitallab.store.shopping.entity.Invoice;
-import academy.digitallab.store.shopping.service.InvoiceService;
+import academy.digitallab.store.serviceshopping.controllers.helpers.ErrorMessage;
+import academy.digitallab.store.serviceshopping.entity.Invoice;
+import academy.digitallab.store.serviceshopping.service.InvoiceService;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
 @RequestMapping("/invoices")
-public class InvoiceRest {
+public class InvoiceRestController {
 
     @Autowired
     InvoiceService invoiceService;
