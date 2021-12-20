@@ -17,10 +17,12 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 import javax.validation.Valid;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import academy.digitallab.store.serviceshopping.model.Customer;
 import lombok.Data;
 
 @Data
@@ -54,6 +56,9 @@ public class Invoice {
     private List<InvoiceItem> items;
 
     private String state;
+    
+    @Transient
+    private Customer customer;
 
     public Invoice(){
         items = new ArrayList<>();
