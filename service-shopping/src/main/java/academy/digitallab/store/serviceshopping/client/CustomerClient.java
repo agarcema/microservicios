@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import academy.digitallab.store.serviceshopping.model.Customer;
 
-@FeignClient(name="service-customer")
+@FeignClient(name="service-customer", fallback = CustomerHystrixFallbackFactory.class)
 //@RequestMapping("/customers")
 public interface CustomerClient {
 
